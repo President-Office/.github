@@ -2,29 +2,26 @@
 
 集团战略、经营节奏、项目组合、制度、会议决策与跨 BU 协同。
 
-## Repository Map
+`President-Office` 用于承载集团层面的战略、治理、项目组合和跨业务协作资产；具体业务代码、部署和数据资产原则上归属对应 `Business-Unit-for-*`。
 
-| Repository | Visibility | Purpose |
-|---|---:|---|
-| [`knowledge-skill-library`](https://github.com/President-Office/knowledge-skill-library) | public | Knowledge summary and reusable Skill library for project planning, research, and AI development context. |
-| [`meetings-and-decisions`](https://github.com/President-Office/meetings-and-decisions) | private | 总裁办会议纪要、决策日志、经营 ADR 与跨 BU 协调记录 |
-| [`operating-system`](https://github.com/President-Office/operating-system) | private | 总裁办经营操作系统：组织架构、治理机制、立项/退出机制、跨 BU 协作规则 |
-| [`policies`](https://github.com/President-Office/policies) | private | 总裁办制度与流程：GitHub、Issue/PR/Actions、部署、数据资产、AI Agent 与协作规范 |
-| [`portfolio-management`](https://github.com/President-Office/portfolio-management) | private | 总裁办项目组合管理：BU 项目地图、repo/domain/deploy 映射、优先级与状态 |
-| [`project-time-management`](https://github.com/President-Office/project-time-management) | public | Personal project time management dashboard for PeterKZhao portfolio projects. |
-| [`requirements`](https://github.com/President-Office/requirements) | private | 总裁办集团级需求池：跨 BU 经营管理、项目组合、制度流程、协同机制与集团级 AI 能力需求 |
+## Key Repositories
+
+| Repository | Purpose |
+|---|---|
+| [`knowledge-skill-library`](https://github.com/President-Office/knowledge-skill-library) | 项目对比知识、技术选型、业务理解和可复用 skills |
+| [`project-time-management`](https://github.com/President-Office/project-time-management) | 个人项目时间管理 dashboard |
+| [`.github`](https://github.com/President-Office/.github) | 组织 profile、仓库地图和轻量治理说明 |
+
+更多仓库说明见：[`docs/repository-map.md`](https://github.com/President-Office/.github/blob/main/docs/repository-map.md)。
 
 ## Governance
 
+- 总裁办负责战略、组合、制度、会议决策和跨 BU 协调。
 - 具体业务代码、部署和数据资产留在对应 BU。
-- 跨 BU 的战略、组合、制度和决策进入 `President-Office`。
-- 平台底座和代码生成资产进入 `Business-Unit-for-Platform`。
-- 生产部署默认按多机模式设计，数据库/缓存不以 `127.0.0.1` 作为生产默认。
-
-## Naming note
-
-- 组织名当前可用。
+- 平台底座、clone-bot、codegen-bot 等归 `Business-Unit-for-Platform`。
+- 简单知识库 / README-only 仓库可以直接维护 `main`；代码、部署、CI、架构性变更优先走 PR。
+- 不在 GitHub 仓库中保存 token、密码、服务器凭据、客户隐私和未授权数据。
 
 ---
 
-_Last updated: 2026-06-29_
+_Last updated: 2026-06-30_
