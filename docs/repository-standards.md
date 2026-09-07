@@ -63,6 +63,35 @@ docs/assets/        # 非敏感图片、示意图或公开附件
 
 不要一开始为所有仓库创建复杂目录。先用最小结构跑通，再按需要扩展。
 
+## Organization 首页与 Pages
+
+每个活跃 Organization 原则上应同时考虑两个公开入口：
+
+| 入口 | 推荐位置 | 作用 |
+| --- | --- | --- |
+| GitHub Organization 首页 | `<org>/.github/profile/README.md` | 一句话定位、重点仓库和简短治理原则 |
+| Organization Pages | `<org>/<org>.github.io` | 完整组织说明、公开仓库地图和文档导航 |
+
+Pages 仓库推荐使用以下命名：
+
+```text
+<organization>.github.io
+```
+
+不建议只创建名为 `pages` 的仓库，因为它通常会形成项目级路径，而不是组织级根入口。
+
+Pages 首页至少应说明：
+
+- 组织是做什么的。
+- 业务范围和非业务范围。
+- 重点公开项目。
+- 仓库分类和导航。
+- 公开文档、贡献方式和更新时间。
+
+`.github/profile/README.md` 应保持简短稳定；Pages 可以承载更完整的公开内容。需求、私有代码、内部部署细节、客户隐私和密钥不能放到 Pages。
+
+新 Organization 的 Pages 可以先使用一页模板，不要求一开始建设复杂网站。组织创建和 Pages 初始化的完整原则见 `President-Office/operating-system/docs/organization-creation-policy.md`。
+
 ## 分支规则
 
 - 小型知识库、profile 仓库、README/docs 更新：可以直接维护 `main`。
