@@ -14,6 +14,7 @@
 
 ```text
 .github/
+├── BOOTSTRAP.md                   # President-Office 组织级启动上下文
 ├── README.md                     # 本仓库说明，面向维护者
 ├── AGENTS.md                     # AI Agent 操作规则
 ├── profile/
@@ -38,6 +39,7 @@
 
 ## 快速入口
 
+- 组织启动上下文：`BOOTSTRAP.md`
 - 组织首页：`profile/README.md`
 - 仓库地图：`docs/repository-map.md`
 - 仓库标准：`docs/repository-standards.md`
@@ -51,7 +53,8 @@
 3. **细节进入 docs**：仓库地图、命名规则、维护流程进入 `docs/`。
 4. **项目状态不放这里**：具体项目进度、Issue、PR、部署状态放回对应仓库。
 5. **敏感信息不入库**：不记录 token、密码、服务器凭据、客户隐私和未授权数据。
-6. **小型文档仓库直接维护 main**：简单 README/docs 更新可直接提交到 `main`，避免积累无意义分支。
+6. **工程原则可执行**：编码和 Review 以 `BOOTSTRAP.md` 的原则索引为入口，具体检查项以 `ai-project-operating-system` 为准。
+7. **小型文档仓库直接维护 main**：简单 README/docs 更新可直接提交到 `main`，避免积累无意义分支。
 
 ## 适合作为其他 README-only 仓库的样板
 

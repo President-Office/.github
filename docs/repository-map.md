@@ -10,7 +10,7 @@
 | `knowledge-skill-library` | 项目对比知识、技术选型、业务理解和可复用 skills | 适合直接维护 `main` |
 | `project-time-management` | 个人项目时间管理 dashboard | 主业/副业共用视图但逻辑分离 |
 
-## 规划中的或私有仓库类型
+## 当前私有仓库
 
 以下仓库可能是私有仓库或后续需要补齐的总裁办资产：
 
@@ -20,6 +20,7 @@
 | `portfolio-management` | 项目组合管理、BU 项目地图、repo/domain/deploy 映射 | 不保存具体业务代码 |
 | `meetings-and-decisions` | 会议纪要、决策日志、经营 ADR | 不保存聊天流水账 |
 | `policies` | GitHub、Issue/PR、Actions、部署、数据资产、AI Agent 协作规范 | 不保存密钥 |
+| `ai-project-operating-system` | GitHub-first 的 AI 项目执行流程、模板、Specs、ADR、Harness 和 Agent 工作流 | 不替代公司级制度 |
 | `operating-system` | 总裁办经营操作系统 | 不替代业务执行仓库 |
 
 ## 归属判断
@@ -50,6 +51,6 @@
 
 1. 查询 GitHub 当前仓库列表。
 2. 判断新增或变化仓库的归属。
-3. 更新本文。
+3. 更新本文和 `BOOTSTRAP.md` 中受影响的入口。
 4. 必要时同步更新 `profile/README.md`。
 5. 提交到 `main`。

@@ -12,6 +12,7 @@
 
 ## Source of Truth
 
+- 组织启动上下文：`BOOTSTRAP.md`
 - 根 README：`README.md`
 - 组织首页展示：`profile/README.md`
 - 仓库地图：`docs/repository-map.md`
@@ -20,13 +21,14 @@
 
 ## 修改规则
 
-1. 修改前先读取 `README.md`、`profile/README.md` 和相关 `docs/`。
+1. 修改前先读取 `BOOTSTRAP.md`、`README.md`、`profile/README.md` 和相关 `docs/`。
 2. Profile README 应保持简洁，只放组织定位、重点仓库入口和核心治理原则。
-3. 长说明不要塞进 profile，放到 `docs/`。
+3. 长说明不要塞进 profile，放到 `BOOTSTRAP.md` 或 `docs/`。
 4. 仓库地图更新时，应同步检查：仓库名称、可见性、用途、归属边界。
 5. 不要凭记忆更新仓库列表；应以 GitHub 当前仓库状态或用户明确说明为准。
-6. 简单文档更新可以直接提交到 `main`。
-7. 不要为小型 README/docs 更新积累长期分支。
+6. 组织级工程原则应引用 `knowledge-skill-library` 的知识卡，并在 AIPOS 中维护可执行检查项，不要在多个仓库复制全文。
+7. 简单文档更新可以直接提交到 `main`。
+8. 不要为小型 README/docs 更新积累长期分支。
 
 ## 内容边界
 

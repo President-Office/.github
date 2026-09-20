@@ -17,6 +17,7 @@
 ## Governance
 
 - 总裁办负责战略、组合、制度、会议决策和跨 BU 协调。
+- 编程和 Review 遵守可验证的工程原则，知识卡见 [`knowledge-skill-library/07-foundations`](https://github.com/President-Office/knowledge-skill-library/tree/main/07-foundations)。
 - 具体业务代码、部署和数据资产留在对应 BU。
 - 平台底座、clone-bot、codegen-bot 等归 `Business-Unit-for-Platform`。
 - 简单知识库 / README-only 仓库可以直接维护 `main`；代码、部署、CI、架构性变更优先走 PR。
@@ -24,4 +25,4 @@
 
 ---
 
-_Last updated: 2026-06-30_
+_Last updated: 2026-09-20_
