@@ -45,7 +45,7 @@
 - 平台底座。
 - clone-bot / codegen-bot。
 - 通用脚手架。
-- 可复用工程基础设施。
+- 可复用工程基础设施。`r`n- 跨业务可复用的行业监测公共组件，例如`r`n  `Business-Unit-for-Platform/industry-monitor-core`。`r`n`r`n`President-Office/industry-monitor-core` 已于 2026-09-25 归档，`r`n仅作为历史镜像保留；后续以平台组织仓库为唯一维护入口。
 
 ## 更新流程
 
