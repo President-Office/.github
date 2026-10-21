@@ -9,6 +9,7 @@
 | `.github` | 组织 profile、仓库地图和轻量治理说明 | 本仓库 |
 | `knowledge-skill-library` | 项目对比知识、技术选型、业务理解和可复用 skills | 适合直接维护 `main` |
 | `project-time-management` | 个人项目时间管理 dashboard | 主业/副业共用视图但逻辑分离 |
+| [`xian-personal-growth-resources`](https://github.com/President-Office/xian-personal-growth-resources) | 西安本地语言交流、兴趣活动、妆造与摄影等个人成长资源目录 | 个人兴趣项目；公开活动线索目录与 GitHub Pages，不属于业务 BU |
 
 ## 当前私有仓库
 

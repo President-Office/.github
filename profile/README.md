@@ -10,6 +10,7 @@
 |---|---|
 | [`knowledge-skill-library`](https://github.com/President-Office/knowledge-skill-library) | 项目对比知识、技术选型、业务理解和可复用 skills |
 | [`project-time-management`](https://github.com/President-Office/project-time-management) | 个人项目时间管理 dashboard |
+| [`xian-personal-growth-resources`](https://github.com/President-Office/xian-personal-growth-resources) | 西安本地语言交流、兴趣活动与个人成长资源目录 |
 | [`.github`](https://github.com/President-Office/.github) | 组织 profile、仓库地图和轻量治理说明 |
 
 更多仓库说明见：[`docs/repository-map.md`](https://github.com/President-Office/.github/blob/main/docs/repository-map.md)。
@@ -25,4 +26,4 @@
 
 ---
 
-_Last updated: 2026-09-20_
+_Last updated: 2026-10-21_
