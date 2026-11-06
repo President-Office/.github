@@ -18,6 +18,7 @@
 | Repository | Purpose | Boundary |
 | --- | --- | --- |
 | `requirements` | 集团级 / 跨 BU 需求池 | 不替代具体业务仓库 Issue |
+| `information-sources` | 多领域、多平台信息源目录与采集架构 | 维护共享来源记录与获取边界；不替代项目专用采集器 |
 | `portfolio-management` | 项目组合管理、BU 项目地图、repo/domain/deploy 映射 | 不保存具体业务代码 |
 | `meetings-and-decisions` | 会议纪要、决策日志、经营 ADR | 不保存聊天流水账 |
 | `policies` | GitHub、Issue/PR、Actions、部署、数据资产、AI Agent 协作规范 | 不保存密钥 |
